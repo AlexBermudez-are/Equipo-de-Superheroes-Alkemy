@@ -1,0 +1,163 @@
+.Home-Body-cards {
+    gap: 130px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 4%;
+}
+
+.Home-Body-cards.padding {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.peso-Altura-Dominante {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedorStats {
+    display: flex;
+    width: 100%;
+}
+
+.intelligence-Combat {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    width: 33%;
+}
+
+.durability-Power {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    width: 33%;
+}
+
+.speed-Strength {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    width: 33%;
+}
+
+@media (max-width:1024px) {
+    .Home-Body-cards {
+        grid-gap: 0px;
+        row-gap: 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .Home-Body-cards.padding {
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+}
+
+@media (max-width:768px) {
+    .Home-Body-cards {
+        grid-gap: 0px;
+        row-gap: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Home-Body-cards.padding {
+        padding-top: 5%;
+        padding-bottom: 20%;
+    }
+}
+
+@media (max-width: 425px) {
+    .navBar-CrearE {
+        width: 100%;
+    }
+    .padre-Login-texto-CreaE {
+        flex-direction: column;
+    }
+    .Home-Body-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        row-gap: 30px;
+    }
+    .Home-Body-cards.padding {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    /** Stats Generales**/
+    .peso-Altura-Dominante {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .contenedorStats {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .intelligence-Combat {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+        width: 95%;
+    }
+    .durability-Power {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+        width: 95%;
+    }
+    .speed-Strength {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+        width: 95%;
+    }
+}
+
+@media (max-width: 320px) {
+    .padre-Login-texto-CreaE {
+        flex-direction: column;
+    }
+    .Home-Body-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        row-gap: 30px;
+    }
+    .Home-Body-cards.padding {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    /** Stats Generales**/
+    .peso-Altura-Dominante {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .contenedorStats {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .intelligence-Combat {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+        width: 95%;
+    }
+    .durability-Power {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+        width: 95%;
+    }
+    .speed-Strength {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+        width: 95%;
+    }
+}

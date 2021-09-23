@@ -1,0 +1,112 @@
+.padre-Login {
+    width: 100%;
+    background-color: rgb(32, 48, 56);
+}
+
+.login-Assets {
+    width: 90%;
+    margin: auto;
+}
+
+.padre-Login-texto {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: darkturquoise;
+    font-size: 1.5rem;
+}
+
+.titulo-Home {
+    width: 30%;
+}
+
+.navBar-Home {
+    background-color: rgb(32, 48, 56);
+    width: 50%;
+}
+
+.texto-Home {
+    color: white;
+    font-size: 2rem;
+    padding-top: 5%;
+    width: 50%;
+}
+.deadpool{
+    width: 45%;
+}
+.presentacion-Body {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    height: 900px;
+}
+
+.icono-Superheroes {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.contenedor-Body-Login {
+    display: flex;
+}
+
+.imagen-Login-sH {
+    height: 600px;
+    text-align: left;
+    width: 70%;
+}
+
+.cerrar {
+    display: none;
+}
+
+.cards {
+    gap: 130px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5%;
+}
+
+@media(max-width: 768px) {
+    .presentacion-Body {
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        height: 640px;
+    }
+    .deadpool {
+        width: 40%;
+    }
+}
+
+@media(max-width:425px) {
+    .padre-Login-texto {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color: darkturquoise;
+        font-size: 1.5rem;
+    }
+    .titulo-Home {
+        width: 100%;
+    }
+    .navBar-Home {
+        width: 100%;
+    }
+    .presentacion-Body {
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        height: 640px;
+    }
+    .deadpool {
+        display: none;
+    }
+    .texto-Home {
+        color: white;
+        padding-top: 5%;
+        font-size: 1.8rem;
+        width: 100%;
+    }
+}
